@@ -5,7 +5,7 @@ function News(){
     <article className="news">
       <h1 className="news-heading">News heading</h1>
       <img
-        src="/photo.jpg"
+        src="./photo.jpg"
         alt=""
       />
       <span className="description">
@@ -20,7 +20,7 @@ function News(){
     <article className="news">
       <h1 className="news-heading">News heading</h1>
       <img
-        src="/photo.jpg"
+        src="./photo.jpg"
         alt=""
       />
       <span className="description">
@@ -52,7 +52,7 @@ function News(){
     <article className="news">
       <h1 className="news-heading">News heading</h1>
       <img
-        src="/photo.jpg"
+        src="./photo.jpg"
         alt=""
       />
       <span className="description">

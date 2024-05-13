@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+li{
+list-style-type: none;
+
+}
+
+.container{
+    height: 100%;
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+.header{
+    background-color: red;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+   
+  
+}
+.login{
+display: flex;
+flex-direction: row ;
+align-items: center;
+justify-content: center;
+gap: 30px;
+}
+
+.login a span{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+#logo{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+form{
+    display: flex;
+   
+}
+form button{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+form input{
+border: none;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 100px;
+    background-color: antiquewhite;
+    position: sticky;
+}
+
+nav li a{
+    color: rgb(0, 0, 0);
+
+
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+   
+}
+
+.news-heading{
+    color: rgb(16, 6, 71);
+}
+
+img{
+    margin-top: 1rem;
+}
+.news-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 10px;
+
+}
+
+.description{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.read-more{
+    
+    font-size:20px;
+}
+
+.news-list-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    gap: 10px;
+}
